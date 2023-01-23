@@ -1,0 +1,28 @@
+.content-layout {
+  width: 60vw;
+  height: 100vh;
+  margin: auto;
+  border: 1px solid $second-color;
+  background-color: white;
+  border-bottom: none;
+  border-top: none;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 900px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgb(245, 245, 245);
+    border-radius: 90px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $main-color;
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: $second-color;
+  }
+}

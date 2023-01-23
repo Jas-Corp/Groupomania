@@ -1,0 +1,113 @@
+.post {
+  margin-top: 50px;
+  border: 1px solid $second-color;
+  border-right: none;
+  border-left: none;
+  border-radius: 5px;
+  border-collapse: collapse;
+
+  &__mainImage {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    &__image {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__imageSelector {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+    &__image-container {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 1px solid $second-color;
+      transition: width 0.2s;
+    }
+    &__selected {
+      width: 110px;
+      height: 110px;
+      border: 1px solid $main-color;
+    }
+
+    &__image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    &__img {
+      border: solid black 1px;
+      width: 40px;
+      height: 40px;
+      margin: 15px;
+      border-radius: 100%;
+
+      & img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &__utils {
+      margin-left: auto;
+      margin-right: 15px;
+      position: relative;
+      overflow: visible;
+
+      & svg {
+        font-size: 25px;
+      }
+    }
+
+    & span {
+      font-size: 14px;
+      color: $second-color;
+    }
+  }
+
+  &__content {
+    margin: 0px 10px 0px 30px;
+  }
+  &__likes {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    padding: 15px;
+    cursor: pointer;
+    & p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      & svg {
+        font-size: 30px;
+        margin: 5px;
+        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(87deg)
+          brightness(119%) contrast(119%);
+      }
+    }
+
+    &--liked {
+      & p {
+        & svg {
+          animation: pop 0.3s forwards;
+          filter: none;
+        }
+      }
+    }
+  }
+}

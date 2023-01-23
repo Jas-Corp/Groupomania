@@ -1,0 +1,14 @@
+.circle {
+  @extend %flex-center;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 100%;
+
+  position: absolute;
+  right: -300px;
+  top: -90px;
+
+  background-color: $main-color;
+  overflow: visible;
+  transition: all 0.5s;
+}

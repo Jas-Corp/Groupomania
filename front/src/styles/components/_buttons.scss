@@ -1,0 +1,16 @@
+.global-button {
+  background-color: $main-color;
+  color: white;
+  border-radius: 7px;
+  padding: 18px;
+  max-width: 200px;
+  min-width: 150px;
+  width: 20vw;
+  margin: 15px;
+  margin-top: 40px;
+
+  &:hover {
+    background-color: $main-color_hover;
+    cursor: pointer;
+  }
+}

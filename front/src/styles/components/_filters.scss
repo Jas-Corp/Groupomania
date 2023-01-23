@@ -1,0 +1,27 @@
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 60%;
+
+  flex-flow: wrap;
+  margin-top: 50px;
+  margin-bottom: 35px;
+
+  & > * {
+    @extend %flex-center;
+    background-color: $main-color;
+    width: 110px;
+    height: 29px;
+    border-radius: 20px;
+    color: white;
+    min-width: 100px;
+    margin: 5px;
+
+    &:hover {
+      background-color: $main-color_hover;
+      cursor: pointer;
+    }
+  }
+}

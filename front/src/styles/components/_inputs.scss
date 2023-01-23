@@ -1,0 +1,33 @@
+.global-input {
+  background-color: $second-color;
+  color: white;
+  width: 90%;
+  max-width: 370px;
+  padding: 15px;
+  border-radius: 7px;
+  height: 57px;
+  box-shadow: 5px solid;
+
+  box-shadow: 1px 8px 26px -2px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 1px 8px 26px -2px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 1px 8px 26px -2px rgba(0, 0, 0, 0.57);
+
+  &::placeholder {
+    color: white;
+    font-size: 11px;
+  }
+
+  &__container {
+    overflow: visible;
+    margin: 10px;
+    width: 100%;
+    @extend %flex-center;
+  }
+  &__error {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+    height: 20px;
+    margin-top: 5px;
+  }
+}

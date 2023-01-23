@@ -1,0 +1,28 @@
+@keyframes formLoad {
+  0% {
+    margin-top: 500px;
+  }
+  100% {
+    margin-top: 70px;
+  }
+}
+@keyframes formLoadHDecoration {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

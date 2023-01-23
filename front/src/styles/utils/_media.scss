@@ -1,0 +1,37 @@
+@media (max-width: 1000px) {
+  .content-layout {
+    width: 100vw;
+  }
+
+  .publish__input {
+    width: 90vw;
+  }
+
+  .homeheader__searchbar {
+    width: 90vw;
+  }
+}
+@media (max-width: 1192px) {
+  .form-deco {
+    display: none;
+  }
+
+  .circle {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    right: 0px;
+    top: 0px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .global-form {
+    margin: 0;
+    width: 90vw;
+    height: 80vh;
+    animation: none;
+  }
+}

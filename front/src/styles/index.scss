@@ -1,0 +1,49 @@
+@import "./utils/variables";
+@import "./utils/animations";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+
+@import "./base/reset";
+@import "./base/font";
+@import "./base/global";
+
+@import "./components/inputs";
+@import "./components/buttons";
+@import "./components/circle";
+@import "./components/forms";
+@import "./components/post";
+@import "./components/publishInput";
+@import "./components/homeHeader";
+@import "./components/filters";
+@import "./components/userinfo";
+
+@import "./layout/decoration";
+@import "./layout/content";
+@import "./layout/modal";
+@import "./pages/SignInPage";
+@import "./pages/SuccessPage";
+@import "./pages/Home";
+
+@import "./utils/media";
+
+.test {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  & button {
+    width: 100%;
+    height: 33%;
+    border: 0.1px solid $main-color;
+    background-color: white;
+    border-radius: 2px;
+
+    &:hover {
+      background-color: $main-color;
+      cursor: pointer;
+      color: white;
+    }
+  }
+}
