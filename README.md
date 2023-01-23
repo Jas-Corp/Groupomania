@@ -1,4 +1,13 @@
 
+
+# Groupomania
+
+**Groupomania** est un faux projet développé en **React, SASS** et **Prisma, Express**
+pour la formation openclassroom.
+
+C'est un **réseau social privé.** Il vise à faciliter la communication entre les différents 
+services et employés.
+
 ## Mise en place
 
 Indication pour mettre en place et lancer le projet.
