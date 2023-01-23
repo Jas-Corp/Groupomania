@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : lun. 23 jan. 2023 à 10:51
+-- Généré le : lun. 23 jan. 2023 à 11:00
 -- Version du serveur : 5.7.36
 -- Version de PHP : 7.4.26
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `groupomania`
 --
+CREATE DATABASE IF NOT EXISTS `groupomania` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `groupomania`;
 
 -- --------------------------------------------------------
 
