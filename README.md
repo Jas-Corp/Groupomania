@@ -42,6 +42,6 @@ npm start
 
 
 
-- Vous pouvez modifier le lien vers la base de données dans **back/src/.env/**
+- Vous pouvez modifier le lien vers la base de données dans **back/src/.env**
 
 - Vous pouvez modifier le lien vers le serveur dans **front/src/config/config.json**
